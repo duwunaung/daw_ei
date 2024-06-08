@@ -1,0 +1,35 @@
+{% extends "bases/base.html" %}
+
+{% block content %}
+<br>
+<hr>
+<br>
+    <div class="banner">
+        <a href="{% url "songs_cat" category='MyanmarSongs' %}">Myanmar Song</a>
+        
+        <a href="{% url "songs_cat" category='EnglishSongs' %}">Init' Song</a>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div>
+        Top 100 Myanmar Songs
+    </div>
+
+    <br>
+    <hr>
+    <br>
+    <div>
+        Top 100 Init Songs
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div>
+        artists
+    </div>
+    
+    <br>
+    <hr>
+    <br>
+{% endblock content %}

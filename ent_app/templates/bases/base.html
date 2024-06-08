@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <h1><a href="{% url "home" %}">Ent Ant</a></h1>
+
+        <form action="">
+            <input type="text" name="" id="">
+            <button>Search</button>
+        </form>
+    </header>
+    {% block content %}{% endblock content %}
+
+    <footer>
+        <input type="text">
+        <button>Subscribe</button>
+        <p>
+            Copyright (c) Daw Ei || 2024 || Ent Ant
+        </p>
+    </footer>
+</body>
+</html>
